@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Expense Tracker</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/title.jpg"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+         <pre> <h1><a href="index.html">An easier way to manage your expenses</a></h1>
+          <h2 style="font-size: 22px">understand where your money is going</h2></pre>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="admin.jsp">Admin</a></li>
+        
+          <li><a href="#">User</a>
+            <ul>
+                <li><a href="user.jsp">Login</a></li>
+                <li><a href="register.jsp">Register</a></li>
+             
+            </ul>
+          </li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/home1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/home2.jpg" alt="photo_two" /></li>
+            <li><img width="450" height="450" src="images/home3.jpg" alt="photo_three" /></li>
+            <li><img width="450" height="450" src="images/home4.jpg" alt="photo_four" /></li>
+            <li><img width="450" height="450" src="images/home5.jpg" alt="photo_five" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Abstract</h1>
+        <p style="text-align: justify">Expense Management automation is the means by which an organization can significantly reduce transaction costs and improve management control when logging, calculating and processing corporate expenses. Independent research evaluating the use of automated expense management systems has confirmed that the cost of processing an expense claim is reduced as the level of automation increases.
+        Our solution is for small-to-medium business owners to solve difficulties with managing their expenses. This software is built in order for employees to use easily with complience and customization.</p>
+       
+      </div>
+    </div>
+    <footer>
+      <p> All Rights Reserved.</p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>
